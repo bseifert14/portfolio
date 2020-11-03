@@ -5,7 +5,7 @@ class Introduction extends React.Component {
 
   render() {
     return (
-      <div class="background">
+      <div>
         <div id="over-background">
           <div class="banner">
             <div class="banner-text">
@@ -13,10 +13,9 @@ class Introduction extends React.Component {
             </div>
           </div>
           <div class="direct-user">
-            <div class="left-triangle"/>
             <Link
               activeClass="active"
-              to="benny"
+              to="firstImage"
               spy={true}
               smooth={true}
               duration={500}>

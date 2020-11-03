@@ -27,7 +27,7 @@ class BillBoard extends React.Component {
   render() {
     return (
       <div>
-        <div id="benny">
+        <div id="firstImage">
           <ReactCompareImage
             leftImage={mtSnowColor}
             rightImage={mtSnowBW}
