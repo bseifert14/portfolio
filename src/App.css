@@ -82,7 +82,6 @@
 	border-width: 50px 50px 50px 0px;
 	height: 0px;
 	width: 0px;
-  /* z-index: 1; */
 }
 
 .right-triangle {
@@ -92,13 +91,16 @@
 	border-width: 50px 0px 50px 50px;
 	height: 0px;
 	width: 0px;
-  /* z-index: 1; */
 }
 
 .fas.fa-arrow-down {
   position: absolute;
   left: 35px;
   top: 35px;
+}
+
+.fas.fa-arrow-down:hover {
+  cursor: pointer;
 }
 
 
